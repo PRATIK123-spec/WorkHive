@@ -1,0 +1,32 @@
+# Versions
+[versions]
+agp = "8.3.3"             # Android Gradle Plugin
+kotlin = "1.9.24"         # Kotlin version
+compose = "1.5.3"         # Jetpack Compose
+core-ktx = "1.15.0"
+appcompat = "1.7.0"
+activity-compose = "1.9.0"
+hilt = "2.48"
+foundation = "1.9.4"
+ui-graphics = "1.9.4"
+
+# Libraries
+[libraries]
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+
+# Compose libraries
+compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+compose-material = { module = "androidx.compose.material:material", version.ref = "compose" }
+compose-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
+compose-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
+
+# AndroidX
+core-ktx = { module = "androidx.core:core-ktx", version.ref = "core-ktx" }
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity-compose" }
+
+# Hilt
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
+foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "foundation" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics", version.ref = "ui-graphics" }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1089193570453",
+    "project_id": "workhive2",
+    "storage_bucket": "workhive2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089193570453:android:2bb477387385f03983eb9c",
+        "android_client_info": {
+          "package_name": "com.example.workhive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcON93uhlxHj8nXvk17BdhVqbHYVGVNQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
