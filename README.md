@@ -2,38 +2,52 @@
 *A Manager–Employee Task Management Android Application*
 
 ## 📱 Overview
-WorkHive is an Android application designed to streamline task management between **managers and employees**.  
-The app helps managers assign tasks efficiently and allows employees to track, update, and manage their assigned work in an organized manner.
+WorkHive is an Android application designed to streamline **task management between managers and employees**.  
+The app allows managers to assign tasks with **specific deadlines**, while employees can view, track, and manage their assigned work efficiently.
 
-This project demonstrates the use of modern Android development tools with a focus on clean UI, structured architecture, and real-world use cases.
+WorkHive uses **Firebase** for authentication and backend services, making it a scalable and real-world ready application.
 
 ---
 
 ## ✨ Features
+
 ### 👨‍💼 Manager
-- Assign tasks to employees
+- Create and assign tasks to employees
+- Set **deadlines** for tasks
 - View all assigned tasks
-- Manage task lifecycle
-- Delete or update tasks
+- Update or delete tasks
+- Monitor task progress
 
 ### 👩‍💻 Employee
 - View assigned tasks
-- Track task progress
-- Expandable task details
-- Simple and clean task interface
+- Track task deadlines
+- View task details
+- Manage task status
 
 ### 🔧 General
-- Modern and minimal UI
-- Smooth navigation between screens
-- Expandable task cards
+- Role-based task management (Manager / Employee)
+- Clean and modern UI
+- Smooth navigation using Jetpack Compose
 - Responsive layout for multiple screen sizes
+
+---
+
+## 🔐 Firebase Integration
+- **Firebase Authentication** – Secure login and user management  
+- **Firebase Firestore / Realtime Database** – Store tasks, deadlines, and user data  
+- **Firebase Cloud Services** – Backend support for real-time updates  
 
 ---
 
 ## 🛠 Tech Stack
 - **Language:** Kotlin  
 - **UI:** Jetpack Compose  
-- **Architecture:** MVVM (basic implementation)  
+- **Architecture:** MVVM  
+- **Backend:** Firebase  
 - **IDE:** Android Studio  
 - **Version Control:** Git & GitHub  
+
+
+
+
 
