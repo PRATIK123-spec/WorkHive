@@ -13,3 +13,9 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# IDE settings
+.idea/
+
+# Firebase config (download your own from the Firebase console)
+app/google-services.json
